@@ -1,0 +1,211 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'open sans', sans-serif;
+
+}
+
+.contenar {
+    padding: 0 15px;
+    margin: 10px auto 70px;
+    perspective: 600px;
+}
+
+.icon {
+    color: rgb(14, 13, 13);
+    display: inline;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+
+
+.icon:hover {
+    opacity: .7;
+    color: rgb(20, 20, 19);
+}
+
+.hide,
+.show {
+    width: 100px;
+    height: 170px;
+    direction: rtl;
+    background-color: #fff;
+    line-height: 30px;
+    margin: -178px 0 0 55px;
+    position: absolute;
+    border: solid 1px #121212;
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #121212;
+}
+
+.menu a:hover {
+    font-size: 18px;
+}
+
+.contenar img {
+    width: 450px;
+    margin-top: -40px;
+}
+
+.sign {
+    width: 400px;
+    height: 30px;
+    padding: 0 15px;
+    margin-left: 670px;
+    display: flex;
+
+}
+
+.sign a {
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.sign a:hover {
+    font-size: 17px;
+    color: #000;
+}
+
+.main,
+.fa-home {
+    margin-left: 30px;
+}
+
+
+
+/* start main */
+
+
+.page1 {
+    margin: 0 0 0 30px;
+}
+
+.page2 {
+    margin: 0 0 0 490px;
+}
+
+.page3 {
+    margin: 205px 0 0 490px;
+}
+
+.page4 {
+    margin: 205px 0 0 720px;
+}
+
+.page1,
+.page2,
+.page3,
+.page4 {
+    transition: .2s;
+    position: absolute;
+}
+
+@media (max-width: 767px) {
+    .page1 {
+        margin: 0px;
+    }
+
+    .page2 {
+        margin: 410px 0 0 0px;
+    }
+
+    .page3 {
+        margin: 615px 0 0 0px;
+    }
+
+    .page4 {
+        margin: 615px 0 0 230px;
+    }
+
+    .sign {
+        margin-left: 200px;
+
+    }
+}
+
+.page1 a img {
+    height: 400px;
+    width: 450px;
+}
+
+.page2 a img {
+    height: 195px;
+    width: 450px;
+}
+
+.page3 a img,
+.page4 a img {
+    height: 195px;
+    width: 220px;
+}
+
+.page1:hover,
+.page2:hover,
+.page3:hover,
+.page4:hover {
+    transform: translate3d(0, 0, 10px);
+}
+
+.page1 a span {
+    margin-top: 235px;
+}
+
+.page1 a span,
+.page2 a span,
+.page3 a span,
+.page4 a span {
+    background-color: rgba(24, 22, 22, 0.8);
+    position: absolute;
+    padding: 2px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.page2 a span,
+.page3 a span,
+.page4 a span {
+    margin-top: 55px;
+}
+
+.page1 p,
+.page2 p,
+.page3 p,
+.page4 p {
+    text-decoration: none;
+    position: absolute;
+    padding: 20px;
+    color: #fff;
+}
+
+.page1 p {
+    margin-top: 250px;
+}
+
+.page2 p {
+    margin-top: 60px;
+}
+
+.page3 p,
+.page4 p {
+    margin-top: 57px;
+}
+
+/* end main */
