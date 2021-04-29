@@ -27,8 +27,6 @@ body {
     margin-left: 30px;
 }
 
-
-
 .icon:hover {
     opacity: .7;
     color: rgb(20, 20, 19);
@@ -41,7 +39,7 @@ body {
     direction: rtl;
     background-color: #fff;
     line-height: 30px;
-    margin: -178px 0 0 55px;
+    margin: -140px 0 0 65px;
     position: absolute;
     border: solid 1px #121212;
     display: none;
@@ -66,10 +64,9 @@ body {
 }
 
 .sign {
-    width: 280px;
-    height: 30px;
     padding: 0 15px;
-    margin-left: 670px;
+    margin-left: 600px;
+    display: inline;
 
 }
 
@@ -87,8 +84,6 @@ body {
 .fa-home {
     margin-left: 30px;
 }
-
-
 
 /* start main */
 
@@ -135,7 +130,7 @@ body {
     }
 
     .sign {
-        margin-left: 200px;
+        margin-left: 100px;
     }
 }
 
