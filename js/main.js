@@ -13,8 +13,8 @@ var sliderTimeoutID;
 var element = 1;
 
 function delayedSlider() {
-    element == 5 ? element = 1 : element = element;
-    element == 1 ? pElement = 4 : pElement = element - 1;
+    element == 6 ? element = 1 : element = element;
+    element == 1 ? pElement = 5 : pElement = element - 1;
     document.getElementById("news" + pElement).style.display = "none";
     document.getElementById("news" + element).style.display = "block";
     document.getElementById("newsLink" + pElement).className = "newsLinks";

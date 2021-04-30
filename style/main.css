@@ -15,7 +15,7 @@ body {
 }
 
 .contenar {
-    padding: 0 15px;
+
     margin: 10px auto 70px;
     perspective: 600px;
 }
@@ -43,10 +43,16 @@ body {
     position: absolute;
     border: solid 1px #121212;
     display: none;
+    ;
 }
 
 .show {
     display: flex;
+}
+
+.show a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .logo {
@@ -54,10 +60,9 @@ body {
 }
 
 .sign {
-    padding: 0 15px;
+    padding: 15px;
     margin-left: 600px;
     display: inline;
-
 }
 
 .sign a {
@@ -92,6 +97,12 @@ body {
     .siction {
         height: 30px;
         width: 450px;
+        margin-left: 0px;
+    }
+
+    .sign {
+        padding: 0;
+        margin-left: 50px;
     }
 }
 
@@ -144,9 +155,7 @@ body {
         margin: 615px 0 0 230px;
     }
 
-    .sign {
-        margin-left: 100px;
-    }
+
 
 
 }
@@ -222,14 +231,14 @@ body {
 /* end main */
 
 .display-width {
-    margin: 490px 50px 0 0;
+    margin: 490px 65px 0 0px;
     width: auto;
     height: 350px;
 }
 
 @media (max-width: 767px) {
     .display-width {
-        margin: 894px 30px 0 0;
+        margin: 894px -81px 0 0;
     }
 
     .newsInfo .image {
