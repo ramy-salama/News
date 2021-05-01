@@ -43,7 +43,6 @@ body {
     position: absolute;
     border: solid 1px #121212;
     display: none;
-    ;
 }
 
 .show {
@@ -70,31 +69,32 @@ body {
     text-decoration: none;
 }
 
-.sign a:hover {
-    font-size: 17px;
-    color: #000;
-}
-
-
-.siction {
-    background-color: rgb(46, 46, 46);
+/* start nav */
+nav {
+    background-color: #3b3a3a;
     height: 30px;
     width: 910px;
     margin-left: 30px;
 }
 
-.siction a {
+nav a {
     text-decoration: none;
     color: #fff;
     padding: 15px;
 }
 
+.show a:hover,
+.sign a:hover,
+nav a:hover {
+    color: chocolate;
+}
+
 @media (max-width: 767px) {
-    .siction a {
+    nav a {
         padding: 3px;
     }
 
-    .siction {
+    nav {
         height: 30px;
         width: 450px;
         margin-left: 0px;
@@ -104,8 +104,50 @@ body {
         padding: 0;
         margin-left: 50px;
     }
+
+    .breaking {
+        width: 450px;
+        margin-left: 0px;
+    }
 }
 
+.breaking {
+    background-color: #444;
+    border: 2px solid #444;
+    color: white;
+    font-size: 18px;
+    height: 30px;
+    width: 910px;
+    padding: 3px;
+    margin: 10px 0 0 30px;
+}
+
+marquee {
+    border: 2px solid #444;
+    background-color: red;
+    color: #fff;
+    height: 30px;
+    width: 775px;
+    float: right;
+    margin: -4px -4px 0 0;
+}
+
+marquee span {
+    color: black;
+}
+
+@media (max-width: 767px) {
+    .breaking {
+        width: 450px;
+        margin-left: 0px;
+    }
+
+    marquee {
+        width: 326px;
+    }
+}
+
+/* End nav */
 
 /* start main */
 
