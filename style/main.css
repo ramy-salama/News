@@ -85,7 +85,8 @@ nav a {
 
 .show a:hover,
 .sign a:hover,
-nav a:hover {
+nav a:hover,
+.right a p:hover {
     color: chocolate;
 }
 
@@ -222,7 +223,8 @@ marquee span {
 .page2:hover,
 .page3:hover,
 .page4:hover,
-.newsLinks:hover {
+.newsLinks:hover,
+.right img:hover {
     transform: translate3d(0, 0, 10px);
 }
 
@@ -273,9 +275,10 @@ marquee span {
 /* end main */
 
 .display-width {
-    margin: 490px 65px 0 0px;
+    margin: 490px 0px 0 35px;
     width: auto;
     height: 350px;
+    display: flex;
 }
 
 @media (max-width: 767px) {
@@ -399,4 +402,33 @@ marquee span {
     background-image: url("https://img.youm7.com/images/general/mainNewsLinksSBg.gif?1");
     border-color: rgb(53, 49, 252);
     border-width: 2px medium 2px 2px;
+}
+
+.right {
+    width: 270px;
+    height: 270px;
+    text-decoration: none;
+}
+
+.right a {
+    text-decoration: none;
+}
+
+.right a p {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #121212;
+    text-align: center;
+}
+
+.right img {
+    width: 270px;
+    height: 270px;
+    margin-left: 15px;
+}
+
+@media (max-width: 767px) {
+    .right {
+        display: none;
+    }
 }
