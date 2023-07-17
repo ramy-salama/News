@@ -11,7 +11,7 @@ html {
 
 body {
     font-family: 'open sans', sans-serif;
-
+    background-color: #5d5d5d;
 }
 
 .contenar {
@@ -63,6 +63,7 @@ body {
     margin-left: 600px;
     display: inline;
 }
+
 
 .sign a {
     padding-left: 15px;
@@ -432,3 +433,5 @@ marquee span {
         display: none;
     }
 }
+
+;
